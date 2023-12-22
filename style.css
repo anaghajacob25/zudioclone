@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* head section */
+
+header{
+    background-color: black;
+    height: 75px;
+    width: 100%;
+}
+
+.navbar h1{
+    color: white;
+    margin-left: 50px;
+    font-size: 44px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-right: 25px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar ul li a:hover{
+    color: #939393;
+}
+
+/* body section */
+
+.content{
+    background-image: url('images/MASTHEAD-1_d291d857-8b53-4ada-8c76-e5e504fa9d56.webp');
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+    position: relative;
+   
+}
+
+.content .list{
+    position: absolute;
+     margin-top: 170px;
+     margin-left: 35px;
+}
+
+.list li{
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.list li a{
+    color: #e7fe00;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.list li a:hover{
+    color: #dfdfdf;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+footer p{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top: 22px;
+    margin-left: 11rem;
+}
+
+/* for responsive */
+
+@media screen and (max-width: 768px) {
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .navbar ul li {
+        font-size: 12px;
+    }
+
+    .content {
+        height: 300px;
+    }
+
+    .list li a {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
